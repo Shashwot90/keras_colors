@@ -9,3 +9,5 @@ import pandas
 
 np.random.seed(10)
 print (tf.__version__)
+
+data = pandas.read_csv('colors.csv')
