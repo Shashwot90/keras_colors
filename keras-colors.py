@@ -16,4 +16,5 @@ data.head()
 len(data)
  
 print(data)
- 
+names = data["name"]
+
