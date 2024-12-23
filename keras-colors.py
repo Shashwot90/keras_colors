@@ -17,4 +17,4 @@ len(data)
  
 print(data)
 names = data["name"]
-
+h = sorted(names.str.len().as_matrix())
