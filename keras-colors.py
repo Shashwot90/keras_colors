@@ -6,6 +6,7 @@ from tensorflow.python.keras.models import Sequential
 from tensorflow.python.keras.layers import Dense, Dropout, LSTM, Reshape
 import numpy as np
 import pandas
+import scipy.stats as stats
 
 np.random.seed(10)
 print (tf.__version__)
@@ -18,3 +19,5 @@ len(data)
 print(data)
 names = data["name"]
 h = sorted(names.str.len().as_matrix())
+
+
