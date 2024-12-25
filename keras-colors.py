@@ -7,6 +7,7 @@ from tensorflow.python.keras.layers import Dense, Dropout, LSTM, Reshape
 import numpy as np
 import pandas
 import scipy.stats as stats
+import pylab as plt
 
 np.random.seed(10)
 print (tf.__version__)
@@ -19,5 +20,3 @@ len(data)
 print(data)
 names = data["name"]
 h = sorted(names.str.len().as_matrix())
-
-
