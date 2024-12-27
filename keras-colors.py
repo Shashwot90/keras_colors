@@ -21,3 +21,4 @@ print(data)
 names = data["name"]
 h = sorted(names.str.len().as_matrix())
 fit = stats.norm.pdf(h, np.mean(h), np.std(h))
+plt.plot(h,fit,'-o')
