@@ -27,3 +27,4 @@ plt.xlabel('Chars')
 plt.ylabel('Probability density')
 plt.show()
 np.array(h).max()
+maxlen = 25
