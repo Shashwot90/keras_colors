@@ -30,3 +30,4 @@ np.array(h).max()
 maxlen = 25
 t = Tokenizer(char_level=True)
 t.fit_on_texts(names)
+tokenized = t.texts_to_sequences(names)
