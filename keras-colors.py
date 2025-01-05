@@ -8,6 +8,7 @@ import numpy as np
 import pandas
 import scipy.stats as stats
 import pylab as plt
+from keras.utils import np_utils
 
 np.random.seed(10)
 print (tf.__version__)
