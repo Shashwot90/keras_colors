@@ -33,3 +33,5 @@ t = Tokenizer(char_level=True)
 t.fit_on_texts(names)
 tokenized = t.texts_to_sequences(names)
 padded_names = preprocessing.sequence.pad_sequences(tokenized, maxlen=maxlen)
+
+one_hot_names = np_utils.to_categorical(padded_names)
