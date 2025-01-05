@@ -35,3 +35,4 @@ tokenized = t.texts_to_sequences(names)
 padded_names = preprocessing.sequence.pad_sequences(tokenized, maxlen=maxlen)
 
 one_hot_names = np_utils.to_categorical(padded_names)
+num_classes = one_hot_names.shape[-1]
