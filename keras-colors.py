@@ -38,3 +38,4 @@ one_hot_names = np_utils.to_categorical(padded_names)
 num_classes = one_hot_names.shape[-1]
 num_classes
 one_hot_names.shape
+t.word_index
